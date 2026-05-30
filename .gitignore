@@ -1,0 +1,32 @@
+# Dependencies (의존성 라이브러리 폴더 - 용량이 커서 올리면 안 됨)
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing (테스트 결과물)
+/coverage
+
+# Next.js 빌드 결과물 (컴파일된 파일들이라 올릴 필요 없음)
+/.next/
+/out/
+
+# Production 빌드 파일
+build/
+
+# Debug logs (에러 로그 파일들)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files (절대 절대 깃허브에 올라가면 안 되는 핵심 보안 파일들!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercrel / OS 설정 파일
+.vercel
+.DS_Store
+*.pem
